@@ -43,8 +43,8 @@ function Parse-Headers {
     }
 
     Write-Host "`n🔐 [+] Tenant ID" -ForegroundColor Cyan
-    if ($unfolded -match "(?im)^X-MS-Exchange-Tenant-Id:\s*(.+)") {
-        Write-Host "   🆔 Tenant ID: $($matches[1])" -ForegroundColor White
+    if ($unfolded -match "(?im)^X-MS-Exchange-CrossTenant-Id:\s*(.+)") {
+        Write-Host "   🆔 Tenant ID: $($matches[1])" -ForegroundColor Green
     } else {
         Write-Host "   🆔 Tenant ID: Not found" -ForegroundColor DarkGray
     }
