@@ -1,3 +1,6 @@
+Suggestion: *Use PowerShell Version 7 For Better Result*
+
+
 🚀 Usage
 Follow these steps to run the SOC Email Header Analyzer PowerShell script:
 
